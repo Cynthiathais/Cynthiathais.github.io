@@ -69,8 +69,10 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
  *overflow:visible;
 
 }
-.button  {display:inline-block; font-size:18px; line-height:60px;font-weight: bold; text-align:center; border:none; outline:none; background-color:#404040; }
-#gg{color:white; padding:20px;letter-spacing: .5px;}
+.button  {display:inline-block; font-size:18px; padding-left:20px;padding-right:20px;line-height:60px;font-weight: bold; text-align:center; border:none; outline:none; color:white;background-color:#444; }
+#gg{color:white; letter-spacing: .5px;font-size:16px;}
+button:hover {
+  background-color: #D3B6B6;}
 
 body, img,.commentys-form input[type="text"],.commentys-form input[type="email"],.commentys-form input[type="url"],.commentys-form textarea {
 
@@ -182,8 +184,8 @@ main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:83px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{font-size: 38px;line-height:50px; color:#404040;font-family: 'Montserrat', sans-serif;padding-bottom:12px;font-weight: 600}
-#ab {font-size: 36px;line-height:40px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;}
-#a {font-size: 36px;line-height:40px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;}
+#ab {font-size: 36px;line-height:50px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;}
+#a {font-size: 36px;line-height:50px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;}
 
 #c {font-size: 24px;line-height:32px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;margin-top: 10px}
 
@@ -363,7 +365,7 @@ transition-duration: 0.6s;transition-property: all;transition-timing-function: e
 
 header[role="header"] nav ul{ display:none; position: fixed; z-index:60; text-align:center; width:100%; height:100%; top:0; left:0; right:0; background-color:rgba(255,255,255,0.8); padding:0; margin:0; padding-top:199px;}
 
-header[role="header"] nav ul > li{ font-weight:600; font-size:36px; display:block; text-transform: uppercase;}
+header[role="header"] nav ul > li{ font-weight:700; font-size:36px; display:block; text-transform: uppercase;}
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#404040}
 
@@ -400,4 +402,4 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 -webkit-transform: rotate(-135deg);-moz-transform: rotate(-135deg);-o-transform: rotate(-135deg);transform: rotate(-135deg);}
 
 .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
-.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-100px;opacity:0} to{bottom:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-80px;opacity:0} to{bottom:0;opacity:1}}
