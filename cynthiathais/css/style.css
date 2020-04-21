@@ -165,6 +165,7 @@ a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 ::selection {background-color: #D3B6B6;color: #fff;text-shadow: none;}
 
 @font-face {font-family: 'Montserrat', sans-serif;}
+@font-face {font-family: 'Inconsolata', monospace;}
 
 /*===== Header ===*/
 
@@ -188,7 +189,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[
 #a {font-size: 36px;line-height:50px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;}
 
 #c {font-size: 24px;line-height:32px; color:#404040;font-family: 'Montserrat', sans-serif;font-weight: 400;margin-top: 10px}
-
+#top {font-family: 'Inconsolata', monospace;color:#404040;}
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:32px; color:#D3B6B6; padding-top:10px;font-weight: 600;line-height: 50px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:16px; line-height:26px; color:#454545} #pc{ font-size:18px;font-weight: 400;line-height:32px; color:#404040;margin-top: 10px}
