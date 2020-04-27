@@ -1,0 +1,270 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1621808,
+            "max": [
+                0.3390621244907379,
+                0.859892725944519,
+                0.35037121176719666
+            ],
+            "min": [
+                -0.4118204116821289,
+                0.07068665325641632,
+                -0.29081425070762634
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1621808,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1621808,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 6218880,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 2519040,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 9951,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Adobe Creative Cloud",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 19461696
+        },
+        {
+            "buffer": 0,
+            "byteLength": 12974464,
+            "byteOffset": 19461696
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19461696,
+            "byteOffset": 32436160
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24875520,
+            "byteOffset": 51897856
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10076160,
+            "byteOffset": 76773376
+        },
+        {
+            "buffer": 0,
+            "byteLength": 39804,
+            "byteOffset": 86849536
+        },
+        {
+            "buffer": 0,
+            "byteLength": 124974,
+            "byteOffset": 86889340
+        },
+        {
+            "buffer": 0,
+            "byteLength": 140327,
+            "byteOffset": 87014314
+        },
+        {
+            "buffer": 0,
+            "byteLength": 959814,
+            "byteOffset": 87154641
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150023,
+            "byteOffset": 88114455
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 88264478,
+            "uri": "CBtreeV2.bin"
+        }
+    ],
+    "images": [
+        {
+            "bufferView": 6,
+            "mimeType": "image/jpeg",
+            "name": "stemtexture - Default Texture.JPG"
+        },
+        {
+            "bufferView": 7,
+            "mimeType": "image/jpeg",
+            "name": "petal - Default Texture.JPG"
+        },
+        {
+            "bufferView": 8,
+            "mimeType": "image/jpeg",
+            "name": "Bark_06 - Default Texture.JPG"
+        },
+        {
+            "bufferView": 9,
+            "mimeType": "image/jpeg",
+            "name": "Image Based Light 1 - Background 1.JPG"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": true,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "stemtexture",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.07999999821186066,
+                "roughnessFactor": 0.3333333432674408
+            }
+        },
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": true,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "petal",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.07999999821186066,
+                "roughnessFactor": 0.3333333432674408
+            }
+        },
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": true,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Bark_06",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    0.8039215803146362,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0.07999999821186066,
+                "roughnessFactor": 0.3333333432674408
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "objMesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 1
+                    },
+                    "indices": 3,
+                    "material": 0,
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 1
+                    },
+                    "indices": 4,
+                    "material": 1,
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 1
+                    },
+                    "indices": 5,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "objMesh"
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0
+        },
+        {
+            "source": 1
+        },
+        {
+            "source": 2
+        },
+        {
+            "source": 3
+        }
+    ]
+}
